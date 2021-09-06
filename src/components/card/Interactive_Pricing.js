@@ -47,7 +47,9 @@ const Interactive_Pricing = () => {
             <div className={styles.price}> <span className={styles.price_span}>${price}</span> <span className={styles.month}> /month</span></div>
             </div>
 
+            <div className={styles.range_width}>
             <input type="range" min="0" max="100" step="20" value={scaleValue}  onChange={onChangeHandler} className = {styles.slider}  />
+            </div>
             
             <div className={styles.billing}>
                 <p>Monthly Billing</p>

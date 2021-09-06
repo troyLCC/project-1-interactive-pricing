@@ -3,6 +3,7 @@
     margin: 0;
     display: flex;
     justify-content:space-between;
+    padding: 50px 40px 20px 40px;
 
 }
 p {
@@ -35,9 +36,15 @@ p {
     margin-top: 22px;
     
 }
+.range_width {
+    width: 340px;
+    
+    margin: 0 auto 10px auto;
+    
+}
 input[type='range']{
     /* overflow: hidden; */
-    width: 100%;
+   width: 100%;
     -webkit-appearance: none;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -82,7 +89,7 @@ input[type='range']::-webkit-slider-runnable-track {
      display: flex; 
      font-size: .8rem;
      justify-content: center;
-     margin: 25px 0;
+     margin: 35px 0;
  }
  .billing p {
      padding-right: 15px;
@@ -98,7 +105,8 @@ input[type='range']::-webkit-slider-runnable-track {
 .perks {
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 40px;
+    padding: 0 40px;
   
 
 }
