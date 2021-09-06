@@ -1,0 +1,129 @@
+.stat {
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.views {
+    font-size: .86rem;
+    font-weight: 500;
+}
+.views, .price {
+    color: rgb(94, 93, 93);
+    
+    
+}
+.price {
+    margin-top: -25px;
+}
+.price_span {
+    font-size: 3rem;
+    color: black;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    
+}
+.month{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 22px;
+    
+}
+input[type='range']{
+    /* overflow: hidden; */
+    width: 100%;
+    -webkit-appearance: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+    
+    margin: 0 auto;
+    background-color: #87d8caa4;
+    
+    
+}
+input[type='range']::-webkit-slider-runnable-track {
+    /* height: 12px; */
+    
+    -webkit-appearance: none;
+    width:100%;
+   
+   
+    
+    color: #87d8cad2;
+  
+    /* margin-top: -1px; */
+  }
+
+.slider::-webkit-slider-thumb {
+    
+    
+    appearance: none;
+    position: relative;
+    width: 24.5px;
+    height: 26px;
+   
+    border: 0;
+    background: url('../../images//icon-slider.svg') no-repeat center #04927ad2;
+    border-radius: 50%;
+    cursor: pointer;
+    
+ }
+ /* Billing */
+ .billing {
+     display: flex; 
+     font-size: .8rem;
+     justify-content: center;
+     margin: 25px 0;
+ }
+ .billing p {
+     padding-right: 15px;
+    
+ }
+ .billing p:last-child {
+    padding: .8px 8px;
+    background: rgba(245, 154, 154, 0.781);
+    border-radius: 5px;
+    color: rgb(248, 7, 7);
+ }
+
+.perks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  
+
+}
+
+.perks ul {
+    padding: 0;
+    margin: 0;
+}
+.perks ul  li {
+    list-style-type: none;
+    padding: 3px 0;
+}
+
+
+.perks img {
+    width: 11px; 
+    padding-right: 12px;
+}
+
+.perks button {
+    outline: none;
+    border: none;
+    background:rgb(9, 41, 100);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
