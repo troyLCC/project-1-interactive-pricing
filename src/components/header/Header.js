@@ -3,7 +3,7 @@ import styles from './Header.module.css'
 
 const Header = () => {
     return (
-        <div>
+        <div className={styles.header_container}>
             <h1 className={styles.header}>
                 Simple, traffic-based pricing
             </h1>

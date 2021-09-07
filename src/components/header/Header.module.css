@@ -1,12 +1,19 @@
 .header {
     font-size: 1.68rem;
+    /* padding-bottom: 20px; */
+    margin: 0 0 0 0;
+    padding-bottom: 5px;
     
-    margin-top: 60px;
 }
-
+.header_container {
+    margin: 100px 0 70px 0;
+    
+}
 .paragraph {
     font-size: .9rem;
-    color: rgb(97, 96, 96)
+    color: rgb(97, 96, 96);
+    margin:0;
+    padding: 0;
 }
 
 .header, .paragraph {
