@@ -12,6 +12,9 @@ function App() {
       <Card>
       <Interactive_Pricing /> 
       </Card>
+      <footer>
+        Testing Footer
+      </footer>
      
      
     </div>
