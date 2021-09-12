@@ -4,9 +4,15 @@
     margin: 0 0 0 0;
     padding-bottom: 5px;
     
+    
 }
 .header_container {
-    margin: 100px 0 70px 0;
+    padding: 100px 0 70px 0;
+    background: url("../../images//pattern-circles.svg") no-repeat;
+    
+    background-position: center center;
+    z-index: 5;
+    position: relative
     
 }
 .paragraph {

@@ -1,7 +1,10 @@
 .card {
     
     margin: 0 auto;
-    width: 410px;
+    width: 480px;
     box-shadow: 2px 4px 10px 1px  rgb(204, 204, 204);
     /* padding: 60px 40px; */
+    /* z-index:10;
+    position: relative; */
+    background-color: white;
 }
